@@ -74,3 +74,11 @@ p {
 li {
     padding: 20px 0;
 }
+
+@media screen and (max-width: 500px) {
+    .dev {
+        display:flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+}
